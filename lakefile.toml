@@ -1,0 +1,6 @@
+name = "logic-and-computation"
+version = "0.1.0"
+defaultTargets = ["LogicAndComputation"]
+
+[[lean_lib]]
+name = "LogicAndComputation"
