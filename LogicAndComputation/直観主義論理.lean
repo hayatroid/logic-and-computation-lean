@@ -1,1 +1,10 @@
 import LogicAndComputation.«直観主義論理».«排中律の二重否定»
+import LogicAndComputation.«直観主義論理».«二重否定除去の二重否定»
+import LogicAndComputation.«直観主義論理».«パースの法則の二重否定»
+import LogicAndComputation.«直観主義論理».«二重否定導入»
+import LogicAndComputation.«直観主義論理».«三重否定から一重否定へ»
+import LogicAndComputation.«直観主義論理».«選言の否定から否定の連言へ»
+import LogicAndComputation.«直観主義論理».«否定の連言から選言の否定へ»
+import LogicAndComputation.«直観主義論理».«否定の選言から連言の否定へ»
+import LogicAndComputation.«直観主義論理».«含意から対偶へ»
+import LogicAndComputation.«直観主義論理».«選言から含意へ»
