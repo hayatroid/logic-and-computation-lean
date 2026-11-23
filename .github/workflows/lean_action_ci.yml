@@ -7,8 +7,19 @@ on:
 
 jobs:
   build:
+    name: ${{ matrix.logic }}
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        include:
+          - logic: 古典論理
+            axioms: "propext,Classical.choice,Quot.sound"
+          - logic: 直観主義論理
+            axioms: "propext,Quot.sound"
     steps:
       - uses: actions/checkout@v7
       - uses: leanprover/lean-action@v1
+        with:
+          axiom-audit: true
+          axiom-audit-root: LogicAndComputation.«${{ matrix.logic }}»
+          axiom-audit-allow: ${{ matrix.axioms }}

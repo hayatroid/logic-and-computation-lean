@@ -1,3 +1,2 @@
--- This module serves as the root of the `LogicAndComputation` library.
--- Import modules here that should be built as part of the library.
-import LogicAndComputation.Basic
+import LogicAndComputation.«古典論理»
+import LogicAndComputation.«直観主義論理»
